@@ -11,6 +11,7 @@ public interface ContaRepository {
 	public void cadastrar(Conta conta);
 	public void atualizar(Conta conta);
 	public void deletar(int numero);
+	public void procurarPorNome(String titular);
 	
 	// Métodos Bancários
 	
