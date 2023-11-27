@@ -34,6 +34,7 @@ public class ContaController implements ContaRepository {
 				.filter(c -> c.getTitular().contains(titular))
 				.collect(Collectors.toList());
 		
+		// Verifica se a Coleção 
 		if(listaNomes.isEmpty())
 			System.out.println("\nNenhuma conta foi encontrada!");
 			
